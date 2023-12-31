@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/16935d426e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="PHOTO/GWE1.png" cs="GWE1">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portofolio">Portofolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-xmark" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Mechanical Engineer</p>
+                <h1>Hi, I'm <span>Farel</span><br> From Indonesia</h1>
+            </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="About" >
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="PHOTO/PICT.png">
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-tittle">About ME</h1>
+                <p>I am an enthusiastic student of Mechanical Engineering at the Islamic University of 
+                    Indonesia, with piping, design manufacture, and maintenance interest. My passion lies in 
+                    collaborating with teams and applying critical, creative, and communicative thinking to 
+                    deliver exceptional results. I am driven by a relentless pursuit of knowledge and new 
+                    experiences, as they fuel my desire to continuously enhance my skills and abilities in the 
+                    field of Mechanical Engineering</p>
+                    <div class="tab-tittles">
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Achievement')">Achievement</p>   
+                        <p class="tab-links" onclick="opentab('Organizations')">Organizations</p>
+                        <p class="tab-links" onclick="opentab('Comitee')">Comitee</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Mechanical Design</span><br>Design an a 2D and 3D mechanical design for manufacture with Solidworks</li>
+                            <li><span>Project Management</span><br>Involves planning, organizing, and overseeing tasks to achieve specific objectives within defined constraints such as time and budget</li>
+                            <li><span>Manufacture Process</span><br>Transforming raw materials into finished products through planning, design, and production stages. Common steps include material processing, assembly, testing, and completio</li>
+                            <li><span>Mechanical Analysis</span><br>Analysis a mechanical motion and fluids with Solidworks Simulation and basics of Ansys</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>August-December 2023</span><br>Mechanical Engineering & Project manager at PT.Stechoq Robotika Indonesia</li>
+                            <li><span>March 2022-December 2022</span><br>Assistant for Automation Laboratory</li>
+                            <li><span>March 2023-Present</span><br>Mechatronics Laboratory Assistan</li>
+                            <li><span>May 2023-Present</span><br>Coordinator of Basic Physics Practicum Assistan</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievement">
+                        <ul>
+                            <li><span>November 2023</span><br>1st place in the Faculty of Industrial Technology Innovation competition</li>
+                            <li><span>November 2023</span><br>Passed the funding of the top 160 Innovillage national prototype implementation competition.</li>
+                            <li><span>December 2023</span><br>Best Project Manager of Batch 5 Internship of PT.Stechoq Robotika Indonesia.</li>
+                            <li><span>December 2023</span><br>Best Prototype project of Batch 5 Internship of PT.Stechoq Robotika Indonesia. </li>
+                            <li><span>September 2023</span><br>Mechanical Design Certification by Dassauslt Solidworks</li>
+                            <li><span>March 2022</span><br>Basic HTML Certifications By Sololearn</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Organizations">
+                        <ul>
+                           <li><span>December 2022-Present</span><br>Public Relations Staf of Ikatan Ahli Teknik Perminyakan SM UII (IATMI SM UII)</li>
+                           <li><span>July 2022-December 2022</span><br>Media and Information Staf of Lembaga Eksekutif Mahasiswa (LEM FTI UII) </li>
+                           <li><span>August 2022 - Presen</span><br>Mechanical Division Staff (Body dan Design) of Ulil Albab Student Centre Universitas Islam Indonesia (UASC UII) </li>
+                       </ul>
+                   </div>
+                   <div class="tab-contents" id="Comitee">
+                       <ul>
+                           <li><span>2023</span><br>Chief Executive of Banchmarking 1 IATMI SM UII x IATMI SM UI x IATMI SM AKAMIGAS </li>
+                           <li><span>2023</span><br>Commission C Staff of Faculty Industrial Technology Festival (FTI FEST UII)</li>
+                           <li><span>2022</span><br>Staff of Wali Jama'ah Pesona ta'aruf (PESTA UII) </li>
+                       </ul>
+                   </div>
+                   <div class="tab-contents" id="educations">
+                       <ul>
+                           <li><span>Present</span><br>Mechanical Engineering at Universitas Islam Indonesia</li>
+                           <li><span>2020</span><br>SMAN 1 Karawang</li>
+                           <li><span>2017</span><br>SMPIT MENTARI ILMU</li>
+                       </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+-<!---------------Services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Mechanical Design</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-list-check"></i>
+                <h2>Project Management</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-oil-well"></i>
+                <h2>Manufacture Process</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Mechanical Analysis</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Maintenance</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Mechatronics</h2>
+                <p>asd</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- ----------------Portolio--------- -->
+<div id = "Portofolio";>
+    <div class ="container">
+        <h1 class="sub-tittle">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="PHOTO/Project manager .jpg">
+                <div class="layer">
+                    <h3>Project Management</h3>
+                    <p>Membuat load capacity, Work breakdown structure, RAB, Spark LAB Team</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="PHOTO/Mechanic Design.jpg">
+                <div class="layer">
+                    <h3>Mechanical Design</h3>
+                    <p>Develop a mechanical desgin for Trainer kit SMA IP interates IoT, Design a 2D and 3D Mechanical Design basd on Solidworks.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="PHOTO/ANALYSIS.jpg">
+                <div class="layer">
+                    <h3>Mechanical Analysis</h3>
+                    <p>Analyze a aerodynamics and fluid of prototype design for eficiency used Ansys</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>proffarel2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone-square-alt"></i>08970800777</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="PHOTO/CV Muhammad Farel Hawaari.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="Contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Farel, Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzzvXacCYahTUMm98sbBaHEAuXWULwEimR_OY2lP-BVj_v5LIgJhEw_RTUur7zqAvxV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Massage sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
